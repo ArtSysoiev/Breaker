@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breaker</string>
+    <string name="instruction_text">Naciśnij Start, aby rozpocząć!</string>
+    <string name="start_btn_text">Start</string>
+    <string name="try_btn_text">Kontynuuj</string>
+    <string name="restart_btn_text">Zagrać jeszcze</string>
+    <string name="error_not_filled_text">Proszę wypełnić wszystkie pola!</string>
+    <string name="tries_left_text">Pozostało prób: %d</string>
+    <string name="win_text">Zwycięstwo!</string>
+    <string name="lose_text">Porażka!</string>
+    <string name="settings_title_text">Ustawienia</string>
+    <string name="username_header_text">Nazwa użytkownika</string>
+    <string name="theme_header_text">Tryb</string>
+    <string name="theme_light_text">Jasny</string>
+    <string name="theme_dark_text">Ciemny</string>
+    <string name="language_header_text">Język</string>
+    <string name="apply_button_text">Zastosować</string>
+    <string name="settings_saved_text">Ustawienia zostały zapisane!</string>
+    <string name="settings_not_saved_text">Ustawienia zostały przywrócone!</string>
+    <string name="default_username">Gracz</string>
+    <string name="total_games_text">Liczba gier</string>
+    <string name="wins_text">Zwycięstwa</string>
+    <string name="winstreak_text">Zwycięstwa z rzędu</string>
+    <string name="exit_text">Zakończ</string>
+    <string name="history_title_text">Historia gier</string>
+    <string name="history_time_title_text">Czas</string>
+    <string name="history_guesses_title_text">Próby</string>
+    <string name="history_result_title_text">Wynik</string>
+    <string name="history_win_text">Zwycięstwo</string>
+    <string name="history_loss_text">Porażka</string>
+    <string name="back_text">Powrót</string>
+</resources>

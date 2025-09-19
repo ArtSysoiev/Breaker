@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+
+    <com.example.breaker.StartButton
+        android:id="@+id/apply_btn"
+        style="@style/button"
+        android:layout_width="183dp"
+        android:layout_height="57dp"
+        android:text="@string/apply_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/language_layout" />
+
+    <TextView
+        android:id="@+id/settings_title_label"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/settings_title_text"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username_header"
+        android:layout_width="245dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/username_header_text"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_title_label" />
+
+    <TextView
+        android:id="@+id/theme_header"
+        android:layout_width="245dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/theme_header_text"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_layout" />
+
+    <TextView
+        android:id="@+id/language_header"
+        android:layout_width="245dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/language_header_text"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theme_layout" />
+
+
+    <GridLayout
+        android:id="@+id/theme_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theme_header">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_light_theme"
+            style="@style/settings_card">
+<!--            android:backgroundTint="@color/bg_light">-->
+
+            <TextView
+                style="@style/settings_card_text"
+                android:text="@string/theme_light_text" />
+<!--                android:textColor="@color/text_light" />-->
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_dark_theme"
+            style="@style/settings_card">
+<!--            android:backgroundTint="@color/bg_dark">-->
+
+            <TextView
+                style="@style/settings_card_text"
+                android:text="@string/theme_dark_text" />
+<!--                android:textColor="@color/text_dark" />-->
+
+        </com.google.android.material.card.MaterialCardView>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/language_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/language_header">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_english"
+            style="@style/settings_card">
+
+            <TextView
+                style="@style/settings_card_text"
+                android:text="@string/language_english" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_russian"
+            style="@style/settings_card">
+
+            <TextView
+                style="@style/settings_card_text"
+                android:text="@string/language_russian" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_ukrainian"
+            style="@style/settings_card">
+
+            <TextView
+                style="@style/settings_card_text"
+                android:text="@string/language_ukrainian" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_polish"
+            style="@style/settings_card">
+
+            <TextView
+                style="@style/settings_card_text"
+                android:text="@string/language_polish" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/username_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/username_header">
+
+        <EditText
+            android:id="@+id/username_input"
+            style="@style/input"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLength="13"
+            android:cursorVisible="true"
+            android:textAlignment="textStart"
+            android:padding="8dp" />
+
+        <ImageButton
+            android:id="@+id/edit_username_button"
+            style="@style/options_button"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_edit" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

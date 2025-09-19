@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="input_bg" format="color|reference" />
+    <attr name="input_text" format="color|reference" />
+    <attr name="input_border" format="color|reference" />
+    <attr name="input_border_active" format="color|reference" />
+    <attr name="input_border_answer" format="color|reference" />
+    <attr name="input_hint" format="color|reference" />
+    <attr name="button_text" format="color|reference" />
+    <attr name="card_checked_background" format="color|reference" />
+    <attr name="navigation_items" format="color|reference" />
+</resources>

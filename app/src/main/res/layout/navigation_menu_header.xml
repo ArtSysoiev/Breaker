@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_header_tint">
+
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Username"
+        android:textSize="40sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_gradient_nav_header"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_label">
+
+        <LinearLayout style="@style/stats.group">
+
+            <TextView
+                android:id="@+id/total_games_info"
+                style="@style/stats.info"
+                android:text="10" />
+
+            <ImageView
+                android:id="@+id/total_games_icon"
+                style="@style/stats.icon"
+                app:srcCompat="@drawable/icon_gamepad" />
+
+            <TextView
+                android:id="@+id/total_games_label"
+                style="@style/stats.label"
+                android:text="@string/total_games_text" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/stats.group">
+
+            <TextView
+                android:id="@+id/wins_info"
+                style="@style/stats.info"
+                android:text="5" />
+
+            <ImageView
+                android:id="@+id/wins_icon"
+                style="@style/stats.icon"
+                app:srcCompat="@drawable/icon_trophie_outline" />
+
+            <TextView
+                android:id="@+id/wins_label"
+                style="@style/stats.label"
+                android:text="@string/wins_text" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/stats.group">
+
+            <TextView
+                android:id="@+id/winstreak_info"
+                style="@style/stats.info"
+                android:text="4" />
+
+            <ImageView
+                android:id="@+id/winstreak_icon"
+                style="@style/stats.icon"
+                app:srcCompat="@drawable/icon_fire" />
+
+            <TextView
+                android:id="@+id/winstreak_label"
+                style="@style/stats.label"
+                android:text="@string/winstreak_text" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:id="@+id/shadow_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="@drawable/shape_gradient_nav_header"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:layout_editor_absoluteY="290dp" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

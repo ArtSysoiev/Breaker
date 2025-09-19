@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breaker</string>
+    <string name="instruction_text">Нажмите Старт, чтобы начать!</string>
+    <string name="start_btn_text">Старт</string>
+    <string name="try_btn_text">Продолжить</string>
+    <string name="restart_btn_text">Сыграть ещё</string>
+    <string name="error_not_filled_text">Пожалуйста, заполните все поля!</string>
+    <string name="tries_left_text">Попыток осталось: %d</string>
+    <string name="win_text">Вы выиграли!</string>
+    <string name="lose_text">Вы проиграли!</string>
+    <string name="settings_title_text">Настройки</string>
+    <string name="username_header_text">Имя пользователя</string>
+    <string name="theme_header_text">Тема</string>
+    <string name="theme_light_text">Светлая</string>
+    <string name="theme_dark_text">Тёмная</string>
+    <string name="language_header_text">Язык</string>
+    <string name="apply_button_text">Применить</string>
+    <string name="settings_saved_text">Настройки сохранены!</string>
+    <string name="settings_not_saved_text">Настройки восстановлены!</string>
+    <string name="default_username">Игрок</string>
+    <string name="total_games_text">Всего игр</string>
+    <string name="wins_text">Победы</string>
+    <string name="winstreak_text">Побед подряд</string>
+    <string name="exit_text">Выйти</string>
+    <string name="history_title_text">История игр</string>
+    <string name="history_time_title_text">Время</string>
+    <string name="history_guesses_title_text">Попытки</string>
+    <string name="history_result_title_text">Результат</string>
+    <string name="history_win_text">Победа</string>
+    <string name="history_loss_text">Поражение</string>
+    <string name="back_text">Назад</string>
+</resources>

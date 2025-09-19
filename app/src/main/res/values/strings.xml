@@ -1,0 +1,42 @@
+<resources>
+    <!--    Main-->
+    <string name="app_name">Breaker</string>
+    <string name="instruction_text">Press Start to begin!</string>
+    <string name="start_btn_text">Start</string>
+    <string name="try_btn_text">Continue</string>
+    <string name="restart_btn_text">Restart</string>
+    <string name="error_not_filled_text">Please fill all fields!</string>
+    <string name="tries_left_text">Tries left: %d</string>
+    <string name="win_text">You won!</string>
+    <string name="lose_text">You lost!</string>
+    <!--    Settings-->
+    <string name="settings_title_text">Settings</string>
+    <string name="username_header_text">Username</string>
+    <string name="theme_header_text">Theme</string>
+    <string name="theme_light_text">Light</string>
+    <string name="theme_dark_text">Dark</string>
+    <string name="language_header_text">Language</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_russian" translatable="false">Русский</string>
+    <string name="language_ukrainian" translatable="false">Українська</string>
+    <string name="language_polish" translatable="false">Polski</string>
+    <string name="apply_button_text">Apply</string>
+    <string name="settings_saved_text">Settings saved!</string>
+    <string name="settings_not_saved_text">Settings restored!</string>
+    <!--    App-->
+    <string name="default_username">Player</string>
+    <!--    Nav menu-->
+    <string name="total_games_text">Games</string>
+    <string name="wins_text">Wins</string>
+    <string name="winstreak_text">Winstreak</string>
+    <string name="exit_text">Exit</string>
+<!--    History-->
+    <string name="history_title_text">Game history</string>
+    <string name="history_game_number_title_text" translatable="false">№</string>
+    <string name="history_time_title_text">Time</string>
+    <string name="history_guesses_title_text">Guesses</string>
+    <string name="history_result_title_text">Result</string>
+    <string name="history_win_text">Win</string>
+    <string name="history_loss_text">Loss</string>
+    <string name="back_text">Back</string>
+</resources>

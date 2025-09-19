@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HistoryActivity"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+        <TextView
+            android:id="@+id/game_number_item"
+            style="@style/history_item"
+            android:layout_weight="1"
+            android:text="@string/history_game_number_title_text" />
+
+        <View style="@style/history_separator_vertical" />
+
+        <TextView
+            android:id="@+id/date_item"
+            style="@style/history_item"
+            android:layout_weight="4"
+            android:text="@string/history_time_title_text" />
+
+        <View style="@style/history_separator_vertical" />
+
+        <TextView
+            android:id="@+id/guesses_item"
+            style="@style/history_item"
+            android:layout_weight="3"
+            android:text="@string/history_guesses_title_text" />
+
+        <View style="@style/history_separator_vertical" />
+
+        <TextView
+            android:id="@+id/result_item"
+            style="@style/history_item"
+            android:layout_weight="3"
+            android:text="@string/history_result_title_text" />
+    </LinearLayout>
+    <View
+        style="@style/history_separator_horizontal"
+        android:layout_margin="0dp"/>
+</LinearLayout>

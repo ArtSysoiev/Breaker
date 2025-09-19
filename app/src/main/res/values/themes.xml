@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Breaker" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="android:windowBackground">@color/bg_light</item>
+         <item name="android:textColor">@color/text_light</item>
+         <item name="android:textAlignment">center</item>
+
+        <item name="input_bg">@color/input_bg_light</item>
+        <item name="input_text">@color/text_light</item>
+        <item name="input_border">@color/input_border_light</item>
+        <item name="input_border_active">@color/input_border_active_light</item>
+        <item name="input_hint">@color/input_hint_light</item>
+        <item name="input_border_answer">@color/input_border_answer_light</item>
+        <item name="button_text">@color/bg_light</item>
+        <item name="card_checked_background">@color/card_checked_background_light</item>
+        <item name="navigation_items">@color/navigation_items_light</item>
+    </style>
+
+    <style name="Theme.Breaker" parent="Base.Theme.Breaker" />
+</resources>

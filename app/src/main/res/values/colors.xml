@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_dark">#14161C</color>
+    <color name="bg_light">#E6E6FF</color>
+    <color name="text_light">#353535</color>
+    <color name="text_dark">#B8C0E7</color>
+    <color name="btn_bg">#1700E4</color>
+    <color name="input_bg_dark">#1F232C</color>
+    <color name="input_bg_light">#F4F4FF</color>
+    <color name="input_border_dark">#2B313C</color>
+    <color name="input_border_light">#84A0D3</color>
+    <color name="input_border_active_dark">#5E76AF</color>
+    <color name="input_border_active_light">#3050FF</color>
+    <color name="input_hint_dark">#40414E</color>
+    <color name="input_hint_light">#838383</color>
+    <color name="input_green">#8848FF00</color>
+    <color name="input_yellow">#88FFF200</color>
+    <color name="input_gray">#11000000</color>
+    <color name="input_border_answer_dark">#379729</color>
+    <color name="input_border_answer_light">#30FF37</color>
+    <color name="card_checked_background_light">#D8D8FB</color>
+    <color name="card_checked_background_dark">#313140</color>
+    <color name="navigation_header_tint">#0E778CFF</color>
+    <color name="navigation_items_dark">#7A82A0</color>
+    <color name="navigation_items_light">#5C6061</color>
+    <color name="history_separator">#74AABBC8</color>
+    <color name="history_result_red">#EF2929</color>
+    <color name="history_result_green">#00AD51</color>
+</resources>
